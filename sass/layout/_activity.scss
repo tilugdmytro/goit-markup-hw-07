@@ -1,9 +1,9 @@
 .activity {
     padding-bottom: var(--section-pb);
-}
 
-.activity .title {
-    margin-bottom: 50px;
+    .title {
+        margin-bottom: 50px;
+    }
 }
 
 .activity-list {
@@ -13,17 +13,17 @@
     margin-top: -30px;
 }
 
-.activity-item {
+.activity-list__item {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
 }
 
-.activity-list-wrapper {
+.activity-list__wrapper {
     position: relative;
 }
 
-.activity-overlay {
+.activity-list__overlay {
     position: absolute;
     bottom: 0;
     left: 0;

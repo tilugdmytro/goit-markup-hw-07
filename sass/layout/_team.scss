@@ -1,11 +1,11 @@
-team {
+.team {
     padding-top: var(--section-pt);
     padding-bottom: var(--section-pb);
     background-color: #F5F4FA;
-}
 
-.team .title {
-    margin-bottom: 50px;
+    .title {
+        margin-bottom: 50px;
+    }
 }
 
 .team-list {
@@ -15,23 +15,21 @@ team {
     margin-top: -30px;
 }
 
-.team-item {
+.team-list__item {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
     margin-top: 30px;
 }
 
-.team-list-content-wrapper {
+.team-list__wrapper {
     padding: 30px 32px;
-
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-title {
+.team-list__title {
     margin-bottom: 10px;
-
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -39,9 +37,8 @@ team {
     letter-spacing: 0.03em;
 }
 
-.team-text {
+.team-list__text {
     margin-bottom: 16px;
-
     font-size: 16px;
     line-height: 1.19;
     text-align: center;

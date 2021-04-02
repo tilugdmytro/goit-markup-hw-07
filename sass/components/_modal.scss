@@ -11,7 +11,7 @@
     border-radius: 4px;
 }
 
-.modal-close-btn {
+.modal__close-btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -21,15 +21,15 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
 }
 
-.close-btn-icon {
+.modal__close-icon {
     fill: currentColor;
-}
-
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-    color: var(--accent-color);
 }
 
 .is-hidden {

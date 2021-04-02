@@ -7,12 +7,15 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--accent-color);
     animation-duration: 1000ms;
+
+    &_light-theme {
+        color: #000000;
+    }
 }
 
-.logo-part-top {
-    color: #000000;
+.logo__accent-text {
+    color: var(--accent-color);
 }
 
 .footer .logo {
@@ -23,9 +26,8 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--accent-color);
-}
 
-.logo-part-bottom {
-    color: #FFFFFF;
+    &_dark-theme {
+        color: #FFFFFF;
+    }
 }
