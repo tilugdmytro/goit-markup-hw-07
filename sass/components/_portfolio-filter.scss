@@ -3,19 +3,19 @@
     padding-bottom: var(--section-pb);
 }
 
-.filters-list {
+.filters__list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.filters-item {
+.filters__item {
     &:not(:last-child) {
         margin-right: 8px;
     }
 }
 
-.filters-btn {
+.filters__btn {
     min-width: 73px;
     padding: 6px 22px;
     @include font(500, 16px);

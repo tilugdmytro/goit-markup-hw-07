@@ -1,4 +1,4 @@
-.modal {
+.modal-form {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -11,7 +11,7 @@
     border-radius: 4px;
 }
 
-.modal__close-btn {
+.modal-form__close-btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -28,7 +28,7 @@
         }
 }
 
-.modal__close-icon {
+.modal-form__close-icon {
     fill: currentColor;
 }
 

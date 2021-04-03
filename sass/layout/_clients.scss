@@ -1,20 +1,20 @@
 .clients {
     padding-top: var(--section-pt);
     padding-bottom: var(--section-pb);
-
-    .title {
-        margin-bottom: 50px;
-    }
 }
 
-.clients-list {
+.clients__title {
+    margin-bottom: 50px;
+}
+
+.clients__list {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
 }
 
-.clients-list__link {
+.clients__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +32,6 @@
         }
 }
 
-.clients-list__icon {
+.clients__icon {
     fill: currentColor;
 }

@@ -1,9 +1,9 @@
-.social-list {
+.social__list {
     display: flex;
     justify-content: space-between;
 }
 
-.social-list__link {
+.social__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,17 +20,17 @@
         }
 }
 
-.social-list__icon {
+.social__icon {
     width: 20px;
     height: 20px;
     fill: currentColor;   
 }
 
-.footer-social-wrapper {
+.footer-social {
     margin-right: 93px;
 }
 
-.footer-social-wrapper__text {
+.footer-social__text {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -40,17 +40,17 @@
     color: #FFFFFF;
 }
 
-.footer-social-list {
+.footer-social__list {
     display: flex;
 }
 
-.footer-social-list__item {
+.footer-social__item {
     &:not(:last-child) {
         margin-right: 10px;
     }
 }
 
-.footer-social-list__link {
+.footer-social__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +66,7 @@
         }
 }
 
-.footer-social-list__icon {
+.footer-social__icon {
     width: 20px;
     height: 20px;
     fill: #FFFFFF;

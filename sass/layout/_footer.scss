@@ -3,21 +3,26 @@
     background-color: #2F303A;
 }
 
-.footer-address-wrapper {
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-address {
     margin-right: 70px;
 }
 
-.address {
+.footer-address__box {
     font-style: normal;
 }
 
-.address-list__item {
+.footer-address__item {
     &:not( :last-child) {
         margin-bottom: 9px;
     }
 }
 
-.address-list__map {
+.footer-address__map {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -31,7 +36,7 @@
         }
 }
 
-.address-list__mail-tel {
+.footer-address__mail-tel {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -45,7 +50,7 @@
         }
 }
 
-.subscription-wrapper__text {
+.footer-subscription__text {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -55,12 +60,12 @@
     color: #FFFFFF;
 }
 
-.subscription-form {
+.foooter-subscription__form {
     display: flex;
     align-items: center;
 }
 
-.subscription-form__email {
+.foooter-subscription__email {
     margin-right: 12px;
     padding: 15px 16px;
     width: 358px;
@@ -76,6 +81,6 @@
         }
 }
 
-.subscription-form__icon {
+.foooter-subscription__icon {
     margin-left: 10px;
 }
